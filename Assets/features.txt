@@ -1,0 +1,9 @@
+1. Strafe movement using WASD while in First Person. Jump using Space.
+2. Rotation movement using WASD while in Third Person. Jump using Space.
+3. Raycast 1 - click on the barrier to disable it.
+4. Raycast 2 - click on the enemy to damage it. when its hp is 0 it is deactivated
+5. Raycast 3 - click on the cube to make it move
+6. Raycast 4 - a raycast is used to determine when the player can jump again.
+7. Raycast 5 - click the button to heal/reset the enemy
+8. Press 'Tab' to switch to a third person camera that follow the player, but doesn't rotate with the player. You can still interact with the raycast objects in this view. It would be possible to prevent raycast objects being interacted with by testing for the camera being used.
+The entire level can be played in either view.
